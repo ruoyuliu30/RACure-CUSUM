@@ -59,7 +59,8 @@ data_tran <- function(tt, data)
   return(data)
 }
 
-whas0 <- data_tran(tt = 730, data = whas)
+# In our case study, let tt = 730, 
+whas0 <- data_tran(tt, data = whas)
 
 ### Risk adjustment 
 # training data (1997-2000) for risk adjustment
